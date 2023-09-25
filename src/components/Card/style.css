@@ -1,18 +1,7 @@
-html,
-body {
-  height: 100%;
-}
-
-body {
-  display: grid;
-  place-items: center;
-}
-
-/* Excluir acima */
 .card_content {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  aspect-ratio: 1/1;
   transform-style: preserve-3d;
   transition: transform 600ms ease-in-out;
 }
@@ -30,6 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 8rem;
+  cursor: pointer;
 }
 
 .card_face--back {

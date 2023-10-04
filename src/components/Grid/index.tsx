@@ -1,7 +1,7 @@
 import { duplicateRegenerateSortArray } from "../../utils/card-utius";
 import { Card, CardProps } from "../Card";
 import "./style.css";
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 
 export interface GridProps {
   cards: CardProps[];
